@@ -1,6 +1,6 @@
-import javax.xml.bind.SchemaOutputResolver;
+package com.exception;
 
-public class Test {
+public class Exception2 {
 
      String id = null;
      public void testE(){
@@ -15,7 +15,7 @@ public class Test {
      }
 
     public static void main(String[] args) {
-        new Test().testE();
+        new Exception2().testE();
     }
 
 

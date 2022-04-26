@@ -1,4 +1,6 @@
-public class Test1 {
+package com.exception;
+
+public class Exception3 {
     public void test123() throws ArrayIndexOutOfBoundsException{
         String[] cars = new String[3];
         cars[0]="ford";
@@ -8,6 +10,6 @@ public class Test1 {
     }
 
     public static void main(String[] args) {
-        new Test1().test123();
+        new Exception3().test123();
     }
 }

@@ -3,7 +3,7 @@ package com.exception;
 public class Exception2 {
 
      String id = null;
-     public void testE(){
+     public void test2(){
          try{
              id.length();
          }
@@ -15,7 +15,7 @@ public class Exception2 {
      }
 
     public static void main(String[] args) {
-        new Exception2().testE();
+        new Exception2().test2();
     }
 
 
